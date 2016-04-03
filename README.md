@@ -1,1 +1,1 @@
-# xamarin �rnekleri
+﻿# xamarin örnekleri
