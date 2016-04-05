@@ -1,8 +1,4 @@
-﻿using System;
-using Android.App;
-using Android.Content;
-using Android.Runtime;
-using Android.Views;
+﻿using Android.App;
 using Android.Widget;
 using Android.OS;
 using System.Collections.Generic;
@@ -19,6 +15,7 @@ namespace MHG.Listview
         {
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.Main);
+            /* ListView Bileşeni ve Adaptör Oluşturma */
             listView = FindViewById<ListView>(Resource.Id.listView);
             list = new List<string>
             {
@@ -27,7 +24,8 @@ namespace MHG.Listview
 
             ArrayAdapter<string> adapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleListItem1, list);
             listView.Adapter = adapter;
+
+            /* Özel ListView Görünümü Oluşturma */
         }
     }
 }
-
