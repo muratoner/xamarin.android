@@ -15,7 +15,7 @@ namespace MHG.Listview
         {
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.Main);
-            /* ListView Bileşeni ve Adaptör Oluşturma */
+
             listView = FindViewById<ListView>(Resource.Id.listView);
             list = new List<string>
             {
@@ -24,8 +24,6 @@ namespace MHG.Listview
 
             ArrayAdapter<string> adapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleListItem1, list);
             listView.Adapter = adapter;
-
-            /* Özel ListView Görünümü Oluşturma */
         }
     }
 }

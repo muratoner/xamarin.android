@@ -1,6 +1,5 @@
 #Xamarin ListView
 
-<center>[![](http://www.muratoner.net/wp-content/uploads/2016/04/Xamarin-logo1.png)](https://monetizejs.com/authorize?client_id=ESTHdCYOi18iLhhO&summary=true)</center>
 
 **Detaylı Bilgi:**
 
