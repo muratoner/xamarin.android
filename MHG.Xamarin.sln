@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MHG.Listview", "MHG.ListView\MHG.Listview.csproj", "{E04720E6-04A5-49AD-9FBE-F1CD8CB53B20}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MHG.Listview", "Xamarin ListView Kullanımı\MHG.ListView\MHG.Listview.csproj", "{E04720E6-04A5-49AD-9FBE-F1CD8CB53B20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MHG.Ozel.ListView", "MHG.Ozel.ListView\MHG.Ozel.ListView.csproj", "{B7AEE15D-0D61-4727-BE66-5A78F69B9053}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MHG.Ozel.ListView", "Xamarin ListView Kullanımı\MHG.Ozel.ListView\MHG.Ozel.ListView.csproj", "{B7AEE15D-0D61-4727-BE66-5A78F69B9053}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
