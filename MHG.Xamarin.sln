@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MHG.Listview", "Xamarin Lis
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MHG.Ozel.ListView", "Xamarin ListView Kullanımı\MHG.Ozel.ListView\MHG.Ozel.ListView.csproj", "{B7AEE15D-0D61-4727-BE66-5A78F69B9053}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MHG.LoginSystem", "Xamarin Giriş Sistemi Oluşturma\MHG.LoginSystem\MHG.LoginSystem.csproj", "{02DB5DAD-D035-4533-9B0F-98D62F6CD218}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,12 @@ Global
 		{B7AEE15D-0D61-4727-BE66-5A78F69B9053}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7AEE15D-0D61-4727-BE66-5A78F69B9053}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B7AEE15D-0D61-4727-BE66-5A78F69B9053}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{02DB5DAD-D035-4533-9B0F-98D62F6CD218}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02DB5DAD-D035-4533-9B0F-98D62F6CD218}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02DB5DAD-D035-4533-9B0F-98D62F6CD218}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{02DB5DAD-D035-4533-9B0F-98D62F6CD218}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02DB5DAD-D035-4533-9B0F-98D62F6CD218}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02DB5DAD-D035-4533-9B0F-98D62F6CD218}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
