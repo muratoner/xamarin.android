@@ -1,18 +1,12 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
 using Android.App;
-using Android.Content;
 using Android.OS;
-using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using System;
 
 namespace MHG.LoginSystem
 {
-    class dialog_signup : DialogFragment
+    class dialog_uyeol : DialogFragment
     {
         EditText txtAd;
         EditText txtSoyad;
@@ -60,6 +54,7 @@ namespace MHG.LoginSystem
 
         private void BtnKaydet_Click(object sender, EventArgs e)
         {
+            //UyeOlTamamlandi adlý eventhandler'imizi çalýþtýrýyoruz MainActivity.cs içerisindeki event'imiz böylelikle tetiklenmiþ oluyor ve formda girdiðimiz verilere eriþmiþ oluyor.
             UyeOlTamamlandi.Invoke(this, new OnUyeOlEventArgs(txtAd.Text, txtSoyad.Text, txtEposta.Text, txtTelefon.Text));
             this.Dismiss();
         }

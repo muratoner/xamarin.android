@@ -21,14 +21,23 @@ namespace MHG.LoginSystem
             btnUyeOl.Click += (object sender, System.EventArgs e) =>
             {
                 FragmentTransaction transaction = FragmentManager.BeginTransaction();
-                var dialog = new dialog_signup();
+                var dialog = new dialog_uyeol();
                 dialog.Show(transaction, "dialog fragment");
 
                 dialog.UyeOlTamamlandi += Dialog_UyeOlTamamlandi;
             };
         }
 
-        private void Dialog_UyeOlTamamlandi(object sender, dialog_signup.OnUyeOlEventArgs e)
+        /// <summary>
+        /// Bu event dialog_uyeol adlı sınıf içerisindeki UyeOlTamamlandi 
+        /// event'inin tetiklenmesi ile çalışmaktadır. Event tetiklendikten sonra
+        /// ProgressBar görünür hale getiriliyor ve Run adlı metodumuzu
+        /// Thread olarak çalıştırıp sistemi 5 saniye uyutuyoruz ve 
+        /// sonrasında progressBar'ı tekrar gizliyoruz.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void Dialog_UyeOlTamamlandi(object sender, dialog_uyeol.OnUyeOlEventArgs e)
         {
             progressBar.Visibility = Android.Views.ViewStates.Visible;
             Thread thread = new Thread(Run);
