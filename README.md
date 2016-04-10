@@ -10,4 +10,5 @@
 
 ## Makaleler
 
-* [ListView](http://www.muratoner.net/?p=1068470)
+* [ListView Kullanımı](http://www.muratoner.net/?p=1068470)
+* [Giriş Yapısı](http://www.muratoner.net/?p=1068499)
