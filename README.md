@@ -4,7 +4,7 @@
 
 ## Gereklilikler
 
-* [Visual Studio](https://www.xamarin.com/download)
+* [Visual Studio](https://www.visualstudio.com/)
 * [Xamarin](https://www.xamarin.com/download)
 * Minimum Android SDK (>= 16)
 
