@@ -311,7 +311,15 @@
 <xs:attribute name='groupIndicator' type='xs:string' />
 <xs:attribute name='indicatorLeft' type='xs:string' />
 <xs:attribute name='indicatorRight' type='xs:string' />
-<xs:attribute name='id' type='xs:string' />
+<xs:attribute name='id'>
+  <xs:simpleType><xs:union memberTypes='xs:string'>
+    <xs:simpleType>
+      <xs:restriction base='xs:NMTOKEN'>
+        <xs:enumeration value='@id+/' />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:union></xs:simpleType>
+</xs:attribute>
 <xs:attribute name='tag' type='xs:string' />
 <xs:attribute name='fragmentCloseEnterAnimation' type='xs:string' />
 <xs:attribute name='fragmentCloseExitAnimation' type='xs:string' />
@@ -465,9 +473,29 @@
 <xs:attribute name='measureWithLargestChild' type='xs:string' />
 <xs:attribute name='showDividers' type='xs:string' />
 <xs:attribute name='weightSum' type='xs:string' />
-<xs:attribute name='layout_height' type='xs:string' />
+<xs:attribute name='layout_height'>
+  <xs:simpleType><xs:union memberTypes='xs:string'>
+    <xs:simpleType>
+      <xs:restriction base='xs:NMTOKEN'>
+        <xs:enumeration value='fill_parent' />
+        <xs:enumeration value='match_parent' />
+        <xs:enumeration value='wrap_content' />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:union></xs:simpleType>
+</xs:attribute>
 <xs:attribute name='layout_weight' type='xs:string' />
-<xs:attribute name='layout_width' type='xs:string' />
+<xs:attribute name='layout_width'>
+  <xs:simpleType><xs:union memberTypes='xs:string'>
+    <xs:simpleType>
+      <xs:restriction base='xs:NMTOKEN'>
+        <xs:enumeration value='fill_parent' />
+        <xs:enumeration value='match_parent' />
+        <xs:enumeration value='wrap_content' />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:union></xs:simpleType>
+</xs:attribute>
 <xs:attribute name='entryValues' type='xs:string' />
 <xs:attribute name='dividerHeight' type='xs:string' />
 <xs:attribute name='footerDividersEnabled' type='xs:string' />
