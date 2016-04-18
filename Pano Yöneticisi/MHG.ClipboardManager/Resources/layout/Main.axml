@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:src="@drawable/mhg" />
+    <EditText
+        android:hint="Kopyalanacak Metni Yazın"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etKopyala" />
+    <EditText
+        android:hint="Buraya Yapıştırılacak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etYapistir" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <Button
+            android:id="@+id/btnKopyala"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:text="Kopyala"
+            android:paddingRight="5dp" />
+        <Button
+            android:id="@+id/btnYapistir"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:text="Yapıştır"
+            android:paddingLeft="5dp" />
+    </LinearLayout>
+</LinearLayout>

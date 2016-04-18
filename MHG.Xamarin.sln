@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MHG.Listview", "Xamarin ListView Kullanımı\MHG.ListView\MHG.Listview.csproj", "{E04720E6-04A5-49AD-9FBE-F1CD8CB53B20}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MHG.Ozel.ListView", "Xamarin ListView Kullanımı\MHG.Ozel.ListView\MHG.Ozel.ListView.csproj", "{B7AEE15D-0D61-4727-BE66-5A78F69B9053}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MHG.LoginSystem", "Xamarin Giriş Sistemi Oluşturma\MHG.LoginSystem\MHG.LoginSystem.csproj", "{02DB5DAD-D035-4533-9B0F-98D62F6CD218}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MHG.ClipboardManager", "Pano Yöneticisi\MHG.ClipboardManager\MHG.ClipboardManager.csproj", "{EA49F2D5-8B9C-44B3-B5E6-056315F3B052}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,12 @@ Global
 		{02DB5DAD-D035-4533-9B0F-98D62F6CD218}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02DB5DAD-D035-4533-9B0F-98D62F6CD218}.Release|Any CPU.Build.0 = Release|Any CPU
 		{02DB5DAD-D035-4533-9B0F-98D62F6CD218}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{EA49F2D5-8B9C-44B3-B5E6-056315F3B052}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA49F2D5-8B9C-44B3-B5E6-056315F3B052}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA49F2D5-8B9C-44B3-B5E6-056315F3B052}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EA49F2D5-8B9C-44B3-B5E6-056315F3B052}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA49F2D5-8B9C-44B3-B5E6-056315F3B052}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA49F2D5-8B9C-44B3-B5E6-056315F3B052}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
