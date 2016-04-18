@@ -315,7 +315,7 @@
   <xs:simpleType><xs:union memberTypes='xs:string'>
     <xs:simpleType>
       <xs:restriction base='xs:NMTOKEN'>
-        <xs:enumeration value='@id+/' />
+        <xs:enumeration value='@+id/' />
       </xs:restriction>
     </xs:simpleType>
   </xs:union></xs:simpleType>
