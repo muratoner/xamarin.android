@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MHG Widget Örneği</string>
+    <string name="widget_name">MHG Widget Örneği</string>
+    <string name="widget_loading">Son makale yükleniyor\nlütfen bekleyiniz...</string>
+</resources>
